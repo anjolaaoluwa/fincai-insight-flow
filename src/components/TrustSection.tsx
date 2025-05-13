@@ -49,12 +49,12 @@ const TrustSection: React.FC = () => {
             
             <h3 className="text-xl font-semibold text-center mb-6">Backed by AI Excellence</h3>
             
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6].map((index) => (
-                <div key={index} className="flex justify-center">
-                  <div className="h-10 w-32 bg-gray-200 rounded animate-pulse-light"></div>
-                </div>
-              ))}
+            <div className="flex justify-center mb-6">
+              <img 
+                src="/lovable-uploads/f243b085-9929-4a8c-a9b3-3ecc4376a320.png" 
+                alt="Finance professionals in a meeting" 
+                className="rounded-lg shadow-md w-full max-w-md h-auto object-cover"
+              />
             </div>
             
             <div className="mt-8 p-4 bg-primary/5 rounded border border-primary/20">
