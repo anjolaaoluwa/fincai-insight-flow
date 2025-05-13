@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { File, MessageSquareQuestion, Calculator, Table } from 'lucide-react';
+import { File, MessageSquare, Calculator, Table } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const steps = [
@@ -15,7 +15,7 @@ const steps = [
     id: 2,
     title: "Ask questions to extract insights",
     description: "Use natural language to ask about specific financial details and metrics.",
-    icon: MessageSquareQuestion,
+    icon: MessageSquare,
     animation: "Prompt bar showing AI response",
   },
   {
