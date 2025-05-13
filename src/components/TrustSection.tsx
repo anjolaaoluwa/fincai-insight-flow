@@ -50,11 +50,13 @@ const TrustSection: React.FC = () => {
             <h3 className="text-xl font-semibold text-center mb-6">Backed by AI Excellence</h3>
             
             <div className="flex justify-center mb-6">
-              <img 
-                src="/lovable-uploads/f243b085-9929-4a8c-a9b3-3ecc4376a320.png" 
-                alt="Finance professionals in a meeting" 
-                className="rounded-lg shadow-md w-full max-w-md h-auto object-cover"
-              />
+              <div className="rounded-lg overflow-hidden shadow-md w-full">
+                <img 
+                  src="/lovable-uploads/f243b085-9929-4a8c-a9b3-3ecc4376a320.png" 
+                  alt="Finance professionals in a meeting" 
+                  className="w-full h-auto object-cover"
+                />
+              </div>
             </div>
             
             <div className="mt-8 p-4 bg-primary/5 rounded border border-primary/20">
