@@ -94,7 +94,7 @@ const StepsSection: React.FC = () => {
                     className="flex-grow bg-transparent border-none focus:outline-none text-gray-700 p-2"
                   />
                   <button className="bg-primary text-white p-2 rounded-md">
-                    <MessageSquareQuestion size={18} />
+                    <MessageSquare size={18} />
                   </button>
                 </div>
               </div>
